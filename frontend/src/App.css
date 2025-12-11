@@ -1,0 +1,56 @@
+.App {
+  min-height: 100vh;
+  position: relative;
+}
+
+.recipe-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.button-primary {
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.button-primary:hover {
+  transform: scale(1.02);
+}
+
+.button-primary:active {
+  transform: scale(0.98);
+}
+
+.input-search {
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input-search:focus {
+  box-shadow: 0 0 0 3px hsla(180, 25%, 25%, 0.1);
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.badge-tag {
+  transition: background-color 0.2s ease;
+}
+
+.badge-tag:hover {
+  background-color: hsl(180, 25%, 30%);
+}

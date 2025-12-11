@@ -1,0 +1,94 @@
+{
+  "identity": {
+    "name": "Dishcovery",
+    "persona": "E1: The Anti-AI Designer",
+    "vibe": "Modern Cookbook Editorial x Swiss Utility",
+    "emotional_tone": "Inviting, Organic, Tactile, Fresh",
+    "archetype": "Organic & Earthy"
+  },
+  "typography": {
+    "primary_font": "DM Sans",
+    "secondary_font": "Playfair Display",
+    "usage": {
+      "headings": "Playfair Display (Serif) - Use for H1, H2, H3. Weights: 600/700. Tracking: tight.",
+      "body": "DM Sans (Sans) - Use for paragraphs, UI elements, buttons. Weights: 400/500.",
+      "accents": "DM Sans - Uppercase, tracking-widest for labels (e.g., 'VEGAN', '15 MIN')."
+    },
+    "google_fonts_import": "https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+  },
+  "colors": {
+    "mode": "light",
+    "palette": {
+      "background": "hsl(40, 20%, 96%)",
+      "foreground": "hsl(180, 25%, 15%)",
+      "card": "hsl(0, 0%, 100%)",
+      "card_foreground": "hsl(180, 25%, 15%)",
+      "primary": "hsl(180, 25%, 25%)",
+      "primary_foreground": "hsl(40, 20%, 96%)",
+      "secondary": "hsl(24, 10%, 90%)",
+      "secondary_foreground": "hsl(180, 25%, 25%)",
+      "accent": "hsl(13, 69%, 63%)",
+      "accent_foreground": "hsl(0, 0%, 100%)",
+      "muted": "hsl(40, 10%, 90%)",
+      "muted_foreground": "hsl(180, 10%, 40%)",
+      "border": "hsl(180, 10%, 85%)",
+      "input": "hsl(180, 10%, 90%)",
+      "ring": "hsl(180, 25%, 25%)"
+    },
+    "description": "A base of warm 'Oat Milk' cream, grounded by deep 'Norwegian Forest' sage green, with 'Paprika' orange accents for appetite appeal."
+  },
+  "layout": {
+    "grid_system": "Bento Grid (Mode A)",
+    "spacing": "Generous. Use p-6 or p-8 for cards. Gap-6 or Gap-8 for grids.",
+    "radius": "1rem (rounded-2xl) or 1.5rem (rounded-3xl) for a softer, organic feel.",
+    "container": "Max-width-7xl, centered, but with asymmetric internal layouts.",
+    "rules": [
+      "Never center text in recipe cards; keep it left-aligned for readability.",
+      "Use aspect-ratio-square or aspect-[4/5] for food images.",
+      "Avoid full-width buttons; use pill-shaped buttons with generous padding."
+    ]
+  },
+  "components": {
+    "buttons": "Pill-shaped (rounded-full). Primary: Sage Green. Secondary: Outline with Sage text.",
+    "cards": "Minimalist. White background, subtle shadow-sm, large image area (60% height).",
+    "inputs": "Deep cream background, no border, bottom-border only focus state (Underline style) OR large rounded-full search bars.",
+    "navigation": "Floating bottom bar on mobile, clean top nav on desktop with serif logo."
+  },
+  "visual_enhancers": {
+    "texture": "Add a subtle 'noise' opacity-5 overlay to the background to kill digital flatness.",
+    "shadows": "Soft, diffuse shadows: shadow-[0_8px_30px_rgb(0,0,0,0.04)].",
+    "glassmorphism": "Use heavy blur (backdrop-blur-xl) for sticky headers/navs with high transparency (bg-white/60)."
+  },
+  "images": {
+    "hero_ingredients": [
+      "https://images.unsplash.com/photo-1700150618387-3f46b6d2cf8e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxmcmVzaCUyMHZlZ2V0YWJsZXMlMjBpbmdyZWRpZW50cyUyMG92ZXJoZWFkJTIwYWVzdGhldGljfGVufDB8fHx8MTc2NTI1ODkxMXww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1650012048722-c81295ccbe79?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwyfHxmcmVzaCUyMHZlZ2V0YWJsZXMlMjBpbmdyZWRpZW50cyUyMG92ZXJoZWFkJTIwYWVzdGhldGljfGVufDB8fHx8MTc2NTI1ODkxMXww&ixlib=rb-4.1.0&q=85"
+    ],
+    "cooking_action": [
+      "https://images.unsplash.com/photo-1577299008785-fbcd46d907b5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHw0fHxjaGVmJTIwY29va2luZyUyMGhlYWx0aHklMjBtZWFsJTIwY2xvc2UlMjB1cHxlbnwwfHx8fDE3NjUyNTg5MTJ8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1582363810282-84c3efbbb2fd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwyfHxjaGVmJTIwY29va2luZyUyMGhlYWx0aHklMjBtZWFsJTIwY2xvc2UlMjB1cHxlbnwwfHx8fDE3NjUyNTg5MTJ8MA&ixlib=rb-4.1.0&q=85"
+    ],
+    "plated_meals": [
+      "https://images.unsplash.com/photo-1597489619062-646198ac6030?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHw0fHxhZXN0aGV0aWMlMjBoZWFsdGh5JTIwZm9vZCUyMHBsYXRlZCUyMG1pbmltYWxpc3R8ZW58MHx8fHwxNzY1MjU4OTE0fDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1644583407622-bfe687865d2e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwzfHxhZXN0aGV0aWMlMjBoZWFsdGh5JTIwZm9vZCUyMHBsYXRlZCUyMG1pbmltYWxpc3R8ZW58MHx8fHwxNzY1MjU4OTE0fDA&ixlib=rb-4.1.0&q=85"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "1. UPDATE TAILWIND CONFIG: Extend the theme with the colors provided above. Do not just copy-paste; integrate them into the 'extend' object.",
+    "2. IMPORT FONTS: Add the Google Fonts import link to the top of 'index.css'.",
+    "3. APPLY GLOBAL STYLES: Set 'font-family: DM Sans, sans-serif' on the body. Create a utility class '.font-serif' for 'Playfair Display'.",
+    "4. OVERRIDE SHADCN: Update the CSS variables in 'index.css' (root and dark) to match the HSL values provided in the 'colors' section.",
+    "5. CREATE LAYOUTS: Use the 'Bento Grid' strategy for the Recipe Results page. Mix wide cards (hero recipe) with tall cards (vertical lists).",
+    "6. USE IMAGES: Use the provided image URLs for placeholders. Do not use gray boxes.",
+    "7. DATA-TESTID: Ensure every interactive element (buttons, inputs, cards) has a 'data-testid' attribute (e.g., 'search-input', 'recipe-card-0')."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Avoid generic 'AI slop' designs. No default blue/purple gradients.",
+    "Use 2-3x more whitespace than you think is necessary.",
+    "Every interaction needs a micro-animation (hover lift, scale, color shift).",
+    "Do not center-align everything. Use strong left alignment for text.",
+    "Use 'sonner' for toasts.",
+    "Components must use named exports.",
+    "Pages must use default exports."
+  ]
+}
